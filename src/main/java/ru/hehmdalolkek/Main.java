@@ -47,6 +47,7 @@ public class Main {
      */
     private static List<Sorter> getAllSorters() {
         List<Sorter> sorters = new ArrayList<>();
+        sorters.add(new BubbleSorter());
         return sorters;
     }
 
