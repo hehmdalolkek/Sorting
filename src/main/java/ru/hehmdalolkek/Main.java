@@ -1,6 +1,7 @@
 package ru.hehmdalolkek;
 
 import ru.hehmdalolkek.sorting.BubbleSorter;
+import ru.hehmdalolkek.sorting.CocktailSorter;
 import ru.hehmdalolkek.sorting.SelectionSorter;
 import ru.hehmdalolkek.sorting.Sorter;
 
@@ -49,6 +50,7 @@ public class Main {
         List<Sorter> sorters = new ArrayList<>();
         sorters.add(new BubbleSorter());
         sorters.add(new SelectionSorter());
+        sorters.add(new CocktailSorter());
         return sorters;
     }
 
