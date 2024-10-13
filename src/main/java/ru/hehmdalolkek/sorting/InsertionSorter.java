@@ -23,17 +23,16 @@ public class InsertionSorter implements Sorter {
         int[] result = array.clone();
 
         for (int i = 1; i < result.length; i++) {
-            int index = i;
-            for (int j = i - 1; j >= 0; j--) {
-                if (result[index] < result[j]) {
-                    int temp = result[index];
-                    result[index] = result[j];
-                    result[j] = temp;
-                    index--;
+            int number = result[i];
+            int j = i - 1;
+            for (; j >= 0; j--) {
+                if (number < result[j]) {
+                    result[j + 1] = result[j];
                 } else {
                     break;
                 }
             }
+            result[j + 1] = number;
         }
 
         return result;
