@@ -1,11 +1,12 @@
 package ru.hehmdalolkek.sorting;
 
 /**
+ * The class implements the bubble sort algorithm.
  * A number of passes through the array are performed - starting from the beginning of the array,
  * pairs of adjacent array elements are iterated.
  * If the 1st element of the pair is greater than the 2nd, the elements are swapped.
  * Pairs of array elements are iterated until the next pass reveals that no more swaps are required.
- * Search speed - O(n2).
+ * Sorting time - O(n2).
  *
  * @author Inna Badekha
  */

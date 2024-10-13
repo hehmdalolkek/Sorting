@@ -5,7 +5,7 @@ package ru.hehmdalolkek.sorting;
  * The number of the minimum value in the current list is searched for.
  * This value is exchanged with the value of the first unsorted position.
  * The tail of the list is sorted, excluding already sorted elements from consideration.
- * Search speed - O(n2).
+ * Sorting time - O(n2).
  *
  * @author Inna Badekha
  */
