@@ -1,9 +1,6 @@
 package ru.hehmdalolkek;
 
-import ru.hehmdalolkek.sorting.BubbleSorter;
-import ru.hehmdalolkek.sorting.CocktailSorter;
-import ru.hehmdalolkek.sorting.SelectionSorter;
-import ru.hehmdalolkek.sorting.Sorter;
+import ru.hehmdalolkek.sorting.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -51,6 +48,7 @@ public class Main {
         sorters.add(new BubbleSorter());
         sorters.add(new SelectionSorter());
         sorters.add(new CocktailSorter());
+        sorters.add(new InsertionSorter());
         return sorters;
     }
 
