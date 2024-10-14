@@ -51,6 +51,7 @@ public class Main {
         sorters.add(new InsertionSorter());
         sorters.add(new MergeSorter());
         sorters.add(new QuickSorter());
+        sorters.add(new DualPivotQuickSorter());
         return sorters;
     }
 
