@@ -49,6 +49,7 @@ public class Main {
         sorters.add(new SelectionSorter());
         sorters.add(new CocktailSorter());
         sorters.add(new InsertionSorter());
+        sorters.add(new MergeSorter());
         return sorters;
     }
 
