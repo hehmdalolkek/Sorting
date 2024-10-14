@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * The class implements the dual-pivot quick sort algorithm.
  * Sorts the specified range of the array using parallel merge sort and/or Dual-Pivot Quicksort.
- * Sorting time - O(nlog n).
+ * Sorting time - O(n log(n)).
  *
  * @author Inna Badekha
  */

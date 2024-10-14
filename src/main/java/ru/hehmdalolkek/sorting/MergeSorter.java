@@ -6,7 +6,7 @@ import java.util.Arrays;
  * The class implements the merge sort algorithm.
  * Divides an array into subarrays,
  * sorts each of them, and then merges the sorted subarrays to produce a sorted array.
- * Sorting time - O(nlog n).
+ * Sorting time - O(n log(n)).
  *
  * @author Inna Badekha
  */

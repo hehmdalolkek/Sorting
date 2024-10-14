@@ -7,7 +7,7 @@ package ru.hehmdalolkek.sorting;
  * The numbers that are smaller than the pivot number are rearranged before it,
  * the numbers that are larger are rearranged after it.
  * The same process is performed recursively for the segments of "smaller" and "larger" values.
- * Sorting time (average) - O(nlog n).
+ * Sorting time (average) - O(n log(n)).
  *
  * @author Inna Badekha
  */
