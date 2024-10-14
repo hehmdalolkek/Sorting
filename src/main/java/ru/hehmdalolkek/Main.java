@@ -50,6 +50,7 @@ public class Main {
         sorters.add(new CocktailSorter());
         sorters.add(new InsertionSorter());
         sorters.add(new MergeSorter());
+        sorters.add(new QuickSorter());
         return sorters;
     }
 
